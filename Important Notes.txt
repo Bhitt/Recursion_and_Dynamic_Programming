@@ -24,3 +24,7 @@ Dynamic Programming and Memoization:
 Recursive Tip:
 	Drawing the recursive calls as a tree is a great way to figure out the runtime of a recursive
 	algorithm.
+Base Case and Build approach:
+	This approach is most widely used in the recursive algorithm. Solve the algorithm first for the
+	base case (e.g., just one element). Then, try to solve it for elements one and two, assuming that
+	we have an answer for element one.
