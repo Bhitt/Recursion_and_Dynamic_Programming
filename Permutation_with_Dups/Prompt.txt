@@ -1,0 +1,11 @@
+Permutations with Duplicates:
+	Write a method to compute all permutations of a string whose characters are not necessarily
+	unique. The list of permutations should not have duplicates.
+Hints:
+	#161: You can check for duplicates first with a hash table. When is this good? When is this not a
+	good solution?
+	#190: Solve without Dups first
+	#222: Try getting the count for each character.
+	#255: To get all permutations with 3 A's, 2 C's, and 1 B, you need to first pick a starting
+	character: A, B, or C. If it's an A, then you need all permutations with 2 As, 2 Cs, and 1B.
+Good Questions:
