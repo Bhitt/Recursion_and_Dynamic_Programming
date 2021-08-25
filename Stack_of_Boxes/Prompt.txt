@@ -1,0 +1,16 @@
+Stack of Boxes:
+	You have a stack of n boxes, with widths w_i, heights h_i, and depths d_i. The boxes cannot be
+	rotated and can only be stacked on top of one another if each box in the stack is strictly larger
+	than the box above it in width, height, and depth. Implement a method to compute the height of
+	the tallest possible stack. The height of a stack is the sum of the heights of each box.
+Hints:
+	#155: Will sorting the boxes help in any way?
+	#194: We can sort the boxes in any dimension in descending order. This will give us a partial 
+	order for the boxes, in that boxes later in the array must appear before boxes ealier in the array. 
+	#214: Try to break it down into subproblems.
+	#260: Which box will be at the bottom?
+	#322: Once we pick the bottom box, we need to pick the second box, then the third box...
+	#368: Can you optimize your recursive algorithm? Are there any repeated subproblems?
+	#378: Alternatively, we can think about the repeated choices as: Does the first box go on the stack?
+	Does the second box go on the stack? And so on.
+Good Questions:
