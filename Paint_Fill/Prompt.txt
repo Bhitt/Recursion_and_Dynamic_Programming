@@ -1,0 +1,9 @@
+Paint Fill:
+	Implement the "paint fill" function that one might see on many image editing programs. That is,
+	given a screen (represented by a two-diminensional array of colors), a point, and a new color,
+	fill in the surrounding area until the color changes from the original color.
+Hints:
+	#364: Think about this as a graph.
+	#382: You can implement this using depth-first (or breadth-first). Each adjacent pixel of the "right
+	color" is a connected edge.
+Good Questions:
