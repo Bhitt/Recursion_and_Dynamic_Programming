@@ -1,0 +1,17 @@
+Boolean Evaluation:
+	Given a boolean expression consisting of the symbols 0 (false), 1 (true), & (AND), | (OR),
+	and ^ (XOR), and a desired boolean result value result, implement a function to count the number
+	of ways of parenthesizing the expression such that it evaluates to result. The expression should
+	be fully parenthesized (e.g., (0)^(1)) but not extraneously (e.g., (((0))^(1))).
+
+	Example
+	countEval("1^0|0|1", false) -> 2
+	countEval("0&0&0&1^1|0", true) -> 10
+Hints:
+	#148: Can we try all possibilities? What would that look like?
+	#168: We can think about each possibility as each place where we can put parentheses. This means
+	around each operator, such that the expression is split at the operator. What is the base case?
+	#197: The base case is when we have a single value, 1 or 0.
+	#305: Your code shouldn't have a lot of If statements. What code can you reuse?
+	#327: Do you have repeated calls in recursion? Can you memoize it?
+Good Questions:
